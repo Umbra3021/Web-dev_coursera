@@ -10,7 +10,7 @@ h1{
 }
 p{
 
-    padding-top: 7%;
+    padding-top: 10%;
     padding-left: 3%;
     padding-right: 3%;
     padding-bottom: 2%;
@@ -21,6 +21,7 @@ p{
     background-color: darkgrey;
     height: auto;
     position: relative;
+
     
 
 }
@@ -32,7 +33,7 @@ p{
     padding-bottom: 1%;
     background-color: palevioletred;
     right: 0;
-    
+    overflow: auto;
 }
 #p2{
     padding-top: 1%;
@@ -41,8 +42,7 @@ p{
     position: absolute ;
     top: 0;
     right: 0;
-
-    
+    overflow: auto;
     background-color: brown;
 }
 #p3{
@@ -53,6 +53,7 @@ p{
     top: 0;
     right: 0;
     background-color: lightpink;
+    overflow: auto;
 }
  
  @media (min-width:992px) {
