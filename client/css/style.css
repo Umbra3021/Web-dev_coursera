@@ -1,7 +1,12 @@
+
 body{
+
+    height: 300px;
     
     background-color: aquamarine;
     background-size: 100%;   
+    overflow-x: hidden;
+    margin-bottom: 0;
 }
 
 
@@ -9,11 +14,11 @@ footer{
 
     background-color: #000;
     color:#fff;
+    
 }
 
-.footer{
-    float: left;
-}
+
+
 
 #logo-img{
     background-image: url("re3.png");
@@ -36,7 +41,7 @@ footer{
 
 a.nav-link{
     
-    margin-left: 50%;
+    margin-left: 30%;
     padding-left: 0;
     width: 100px;
     font-size: small; 
@@ -134,6 +139,71 @@ h1{
         color: #fff;
         opacity: .8;
 
+}
+
+
+
+.logo{
+    margin-left: 45%;
+    font-size: 40px ;
+    color: blueviolet;
+    margin-bottom: 3%;
+    font-style: oblique;
+
+}
+
+
+#Dish{
+    background: url("try4.jpeg");
+    background-position: center;
+    height: 150px;
+    width: 250px;
+    margin-right: 5%;
+    margin-bottom: 15px;
+    margin-left: 8%;
+    
+    
+    position: relative;
+    border: 2px solid rgb(248, 6, 6);
+    overflow: hidden;
+    
+}
+
+#Dish span{
+
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    text-align: center;
+    text-transform: uppercase;
+    background-color: #000;
+    color: #fff;
+    opacity: .8;
+}
+
+
+
+
+#steak{
+
+    width:fit-content;
+
+    border: 5px solid brown;
+    margin-top: 3%;
+    margin-left: 5%;
+}
+
+.info h1{
+    
+    
+        margin-left: 20%;
+    
+    
+}
+.info p{
+
+    margin-left: 10%;
 }
 
 
