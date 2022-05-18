@@ -45,7 +45,7 @@ footer{
 
 a.nav-link{
     
-    margin-left: 30%;
+    
     padding-left: 0;
     width: 100px;
     font-size: small; 
@@ -59,6 +59,7 @@ a.nav-link{
 
 .navbar-brand button.navbar-toggler{   
     background-color: rgb(21, 237, 237);
+    float: right;
 }
 .navbar-brand a:hover,.navbar-brand a:focus{
 
@@ -237,6 +238,25 @@ h1{
         width: 360px;
         margin: 0 auto 15px;
     }
+
+    h1{
+
+        font-size: 30px;
+
+    }
+
+    #title2{
+        font-size:  0px;
+    }
+
+    .navbar-brand{
+        padding-bottom: 0px;
+    }
+
+    .navbar-toggler{
+        float: right;
+    }
+
 
 }
 
