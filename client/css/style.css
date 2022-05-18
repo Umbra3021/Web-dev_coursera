@@ -43,14 +43,15 @@ footer{
     margin-bottom: 0px;
 }
 
+
+
 a.nav-link{
-    
-    
     padding-left: 0;
     width: 100px;
     font-size: small; 
     border:  1px solid rgb(1, 8, 10);
     background-color: rgb(21, 237, 237);
+    
 }
 
 .tel{
@@ -64,6 +65,12 @@ a.nav-link{
 .navbar-brand a:hover,.navbar-brand a:focus{
 
     text-decoration: none;
+
+}
+
+#navbar-text{
+    margin-left: 0%;
+    
 
 }
 
@@ -219,10 +226,18 @@ h1{
 }
 
 
+@media(max-width:1199px) {
+
+    .navbar-nav{
+
+        float: right;
+        margin-right: 30%;
+        margin-top: 10%;
+    } 
+}
 
 
-
-@media(max-width:700px){
+@media(max-width:450px){
 
     #logo-img{
         background: none;
@@ -256,6 +271,12 @@ h1{
     .navbar-toggler{
         float: right;
     }
+
+    .nav-link{
+        margin-left: 60%;
+        margin-right: 0%;
+    }
+    
 
 
 }
