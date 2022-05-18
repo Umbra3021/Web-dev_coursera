@@ -17,6 +17,9 @@ footer{
     
 }
 
+#footer{
+    margin-left: 5px;
+}
 
 
 
@@ -35,6 +38,7 @@ footer{
 
 .navbar-brand{
     
+    margin-left: 3%;
     margin-top: 0px;
     margin-bottom: 0px;
 }
@@ -61,6 +65,13 @@ a.nav-link{
     text-decoration: none;
 
 }
+
+#photo{
+
+    border: 1px solid  rgb(203, 225, 192);
+    margin-bottom: 3%;
+}
+
 h1{
     
     color:white;
@@ -208,10 +219,15 @@ h1{
 
 
 
+
+
 @media(max-width:700px){
 
     #logo-img{
         background: none;
+        margin: 0%;
+        height: 0px;
+        width: 0px;
     }
     nav.navbar{
         border:0px;
