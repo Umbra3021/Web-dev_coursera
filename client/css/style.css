@@ -68,11 +68,6 @@ a.nav-link{
 
 }
 
-#navbar-text{
-    margin-left: 0%;
-    
-
-}
 
 #photo{
 
@@ -223,6 +218,18 @@ h1{
 .info p{
 
     margin-left: 10%;
+}
+
+@media(min-width :1200px)
+{
+    #navbarText.navbar-collapse{
+    
+        float: left;
+        margin-left: 3%;
+         
+     
+     }
+     
 }
 
 
